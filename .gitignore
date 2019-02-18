@@ -459,5 +459,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-
+!mysql/env
 mysql/databases/wordpress/
