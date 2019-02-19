@@ -27,10 +27,9 @@ services:
       - ./php72-fpm/config/zz-docker.conf:/usr/local/etc/php-fpm.d/zz-docker.conf
       - ./php72-fpm/socket/:/var/run/php-fpm/
       - ./php72-fpm/log:/usr/local/var/log/
-
-    #env_file: ./mysql/env/.env
-    #environment:
-    #  DATABASE_HOST: db
+    env_file: ./mysql/env/mysql.env
+    environment:
+      DATABASE_HOST: db
     links:
       - db:mysql
     depends_on:
