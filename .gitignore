@@ -461,3 +461,4 @@ dmypy.json
 
 !mysql/env
 mysql/databases/*
+phpmyadmin/*

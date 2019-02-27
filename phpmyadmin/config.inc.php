@@ -28,7 +28,8 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
-$cfg['Servers'][$i]['host'] = 'localhost';
+//$cfg['Servers'][$i]['host'] = 'localhost';
+$cfg['Servers'][$i]['host'] = 'mysql';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
@@ -116,6 +117,7 @@ $cfg['SaveDir'] = '';
 //$cfg['DefaultLang'] = 'en';
 //$cfg['DefaultLang'] = 'de';
 $cfg['DefaultLang'] = 'ja';
+$cfg['DefaultCharset'] = 'utf-8';
 
 /**
  * How many columns should be used for table display of a database?
