@@ -460,4 +460,4 @@ dmypy.json
 .pyre/
 
 !mysql/env
-mysql/databases/wordpress/
+mysql/databases/*
